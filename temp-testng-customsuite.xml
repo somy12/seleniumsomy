@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test thread-count="5" name="maven01">
+    <classes>
+      <class name="com.maven.text.huohu">
+        <methods>
+          <include name="hh"/>
+        </methods>
+      </class> <!-- com.maven.text.huohu -->
+ <class name="com.maven.text.denglu">
+        <methods>
+          <include name="dl02"/>
+        </methods>
+      </class> 
+    </classes>
+  </test> <!-- maven01 -->
+</suite> <!-- Default Suite -->
